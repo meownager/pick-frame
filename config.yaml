@@ -1,0 +1,12 @@
+ingest:
+  max_side: 1024
+  n_frames: 16
+filter:
+  min_laplacian_var: 100.0
+  max_clip_pct: 0.05
+weights:
+  musiq: 0.40
+  eyes_open: 0.30
+  smile: 0.15
+  sharpness: 0.15
+face_fallback: [musiq, sharpness]
